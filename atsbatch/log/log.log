@@ -1,0 +1,78 @@
+26-12-2019 09:11:46.577 [main] INFO  com.ats.batch.AtsbatchApplication.logStarting - Starting AtsbatchApplication on DESKTOP-S261OA3 with PID 9896 (C:\Users\hp\Documents\workspace-sts-3.9.10.RELEASE\atsbatch\target\classes started by hp in C:\Users\hp\Documents\workspace-sts-3.9.10.RELEASE\atsbatch)
+26-12-2019 09:11:46.610 [main] INFO  com.ats.batch.AtsbatchApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+26-12-2019 09:11:49.969 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+26-12-2019 09:11:50.086 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 103ms. Found 5 repository interfaces.
+26-12-2019 09:11:50.830 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+26-12-2019 09:11:51.369 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8182 (http)
+26-12-2019 09:11:51.401 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+26-12-2019 09:11:51.402 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.27]
+26-12-2019 09:11:51.562 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+26-12-2019 09:11:51.563 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4572 ms
+26-12-2019 09:11:52.311 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+26-12-2019 09:11:52.635 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.4.8.Final}
+26-12-2019 09:11:53.252 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+26-12-2019 09:11:53.556 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+26-12-2019 09:11:54.579 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+26-12-2019 09:11:54.665 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+26-12-2019 09:11:56.316 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-12-2019 09:11:56.325 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+26-12-2019 09:11:57.673 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+26-12-2019 09:11:57.877 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+26-12-2019 09:11:58.257 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8182 (http) with context path ''
+26-12-2019 09:11:58.260 [main] INFO  com.ats.batch.AtsbatchApplication.logStarted - Started AtsbatchApplication in 13.109 seconds (JVM running for 14.882)
+26-12-2019 09:11:58.262 [main] INFO  c.a.b.main.LowBalanceRemainderJob.test - In the test() -- LowBalRemainderJob
+26-12-2019 09:11:58.263 [main] INFO  c.a.b.main.LowBalanceRemainderJob.preProcess - In the preprocess()
+26-12-2019 09:11:58.709 [main] INFO  c.a.b.main.LowBalanceRemainderJob.preProcess - BatchRunDetails saved successfully
+26-12-2019 09:11:58.710 [main] INFO  c.a.b.main.LowBalanceRemainderJob.start - In the start()
+26-12-2019 09:11:58.803 [main] INFO  c.a.b.main.LowBalanceRemainderJob.start - Total Retrieved tagIds:1
+26-12-2019 09:11:58.804 [main] INFO  c.a.b.main.LowBalanceRemainderJob.start - Creating Thread Pool and staring run method with tagId:201
+26-12-2019 09:11:58.808 [main] INFO  c.a.b.main.LowBalanceRemainderJob.process - In the Process()252
+26-12-2019 09:11:59.044 [main] ERROR c.a.b.main.LowBalanceRemainderJob.process - Exception occured in process()
+26-12-2019 09:11:59.045 [main] INFO  c.a.b.main.LowBalanceRemainderJob.postProcess - In The postProcess()
+26-12-2019 09:11:59.184 [main] INFO  c.a.b.main.LowBalanceRemainderJob.postProcess - BatchRunDetails table updated
+26-12-2019 09:11:59.417 [main] INFO  c.a.b.main.LowBalanceRemainderJob.postProcess - BatchRunSummary tble entry saved
+26-12-2019 09:25:30.612 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+26-12-2019 09:25:30.619 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+26-12-2019 09:25:30.622 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+26-12-2019 09:25:30.627 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+26-12-2019 09:25:30.648 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+26-12-2019 09:25:36.740 [main] INFO  com.ats.batch.AtsbatchApplication.logStarting - Starting AtsbatchApplication on DESKTOP-S261OA3 with PID 14584 (C:\Users\hp\Documents\workspace-sts-3.9.10.RELEASE\atsbatch\target\classes started by hp in C:\Users\hp\Documents\workspace-sts-3.9.10.RELEASE\atsbatch)
+26-12-2019 09:25:36.746 [main] INFO  com.ats.batch.AtsbatchApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+26-12-2019 09:25:37.479 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+26-12-2019 09:25:37.567 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 79ms. Found 5 repository interfaces.
+26-12-2019 09:25:37.843 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+26-12-2019 09:25:38.085 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8182 (http)
+26-12-2019 09:25:38.094 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+26-12-2019 09:25:38.094 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.27]
+26-12-2019 09:25:38.184 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+26-12-2019 09:25:38.200 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1380 ms
+26-12-2019 09:25:38.357 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+26-12-2019 09:25:38.435 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.4.8.Final}
+26-12-2019 09:25:38.576 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+26-12-2019 09:25:38.682 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+26-12-2019 09:25:39.713 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+26-12-2019 09:25:39.723 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+26-12-2019 09:25:40.635 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-12-2019 09:25:40.650 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+26-12-2019 09:25:41.265 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+26-12-2019 09:25:41.414 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+26-12-2019 09:25:41.636 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8182 (http) with context path ''
+26-12-2019 09:25:41.639 [main] INFO  com.ats.batch.AtsbatchApplication.logStarted - Started AtsbatchApplication in 5.371 seconds (JVM running for 7.286)
+26-12-2019 09:25:41.642 [main] INFO  c.a.b.main.LowBalanceRemainderJob.test - In the test() -- LowBalRemainderJob
+26-12-2019 09:25:41.642 [main] INFO  c.a.b.main.LowBalanceRemainderJob.preProcess - In the preprocess()
+26-12-2019 09:25:41.757 [main] INFO  c.a.b.main.LowBalanceRemainderJob.preProcess - BatchRunDetails saved successfully
+26-12-2019 09:25:41.758 [main] INFO  c.a.b.main.LowBalanceRemainderJob.start - In the start()
+26-12-2019 09:25:41.799 [main] INFO  c.a.b.main.LowBalanceRemainderJob.start - Total Retrieved tagIds:2
+26-12-2019 09:25:41.800 [main] INFO  c.a.b.main.LowBalanceRemainderJob.start - Creating Thread Pool and staring run method with tagId:201
+26-12-2019 09:25:41.804 [main] INFO  c.a.b.main.LowBalanceRemainderJob.process - In the Process()252
+26-12-2019 09:25:41.839 [main] ERROR c.a.b.main.LowBalanceRemainderJob.process - Exception occured in process()
+26-12-2019 09:25:41.839 [main] INFO  c.a.b.main.LowBalanceRemainderJob.start - Creating Thread Pool and staring run method with tagId:505
+26-12-2019 09:25:41.841 [main] INFO  c.a.b.main.LowBalanceRemainderJob.process - In the Process()253
+26-12-2019 09:25:55.599 [main] INFO  c.a.b.main.LowBalanceRemainderJob.postProcess - In The postProcess()
+26-12-2019 09:25:55.878 [main] INFO  c.a.b.main.LowBalanceRemainderJob.postProcess - BatchRunDetails table updated
+26-12-2019 09:25:56.057 [main] INFO  c.a.b.main.LowBalanceRemainderJob.postProcess - BatchRunSummary tble entry saved
+26-12-2019 09:32:30.789 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+26-12-2019 09:32:30.796 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+26-12-2019 09:32:30.798 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+26-12-2019 09:32:30.804 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+26-12-2019 09:32:30.812 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.

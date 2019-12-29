@@ -1,0 +1,10 @@
+
+
+		Hi, FName LName, WelCome to ATS. Your registration is successful  and almost completed.
+	Please Unlock your account with following details.
+	User Name: email
+	Temporary Password: tempPass
+	<a href="http://localhost:8081/updatePage">Click here</a> to unlock your account
+
+	Thanks & Regards,
+	ATS Admin Team

@@ -1,0 +1,11 @@
+
+
+
+		Hi, FName LName, WelCome to ATS. Your Toll Collection is failed at  Toll Gate due to failureReason. So it is
+	advised to recharge your tag account with in 10 days from today otherwise your vehicle will be siezed
+	by police authority.
+	
+	
+	
+	Thanks & Regards,
+	ATS Recovery Team
